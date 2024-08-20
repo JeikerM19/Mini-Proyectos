@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    background-color: #222;
+    font-family: sans-serif;
+}
+form {
+    padding: 20px;
+    background: linear-gradient(#222, #000);
+    border-radius: 8px;
+    border: 1px solid #444;
+}
+h1 {
+    text-align: center;
+    color: #cfc;
+    font-size: 1.1em;
+    margin: 0;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.box {
+    width: 450px;
+    margin:auto;
+    background-color: transparent;
+    margin-top: 30px;
+    box-shadow: 0px 0px 45px #333;
+}
+label, legend {
+    color: #dfd;
+    font-size: 0.85em;
+}
+input, textarea, select {
+    margin: 0;
+    padding: 6px 2px;
+    border: none;
+    margin-top: 3px;
+    margin-bottom: 5px;
+    border-top: 1px solid #af3;
+    background: transparent;
+    border-left: 1px solid #af3;
+    color: #af3;
+    border-radius: 5px;
+    width: 100%;
+    color: #cfc;
+    font-size: 0.8em;
+    box-shadow: 0px 0px 45px #333;
+}
+fieldset {
+    margin: 20px 0;
+    border: 1px solid #af38;
+    background: transparent;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+legend {
+    font-size: 0.9em;
+}
+textarea {
+    resize: none;
+    max-width: 100%;
+    font-family: sans-serif;
+    font-size: 0.8em;
+}
+select {
+    background-color: #111;
+}
+.checkbox {
+    width: auto;
+    height: 10px;
+}
+p {
+    color: #dfd;
+    font-size: 0.9em;
+}
+a {
+    text-decoration: none;
+    color: #af6;
+}
